@@ -11,4 +11,8 @@ You only need to set up keywords and summary.
 2. index.html
   * You need to manually add the effect `<span onclick="fly(this)">` in front of every keyword in the article, and its close tag `</span>` after the keyword.
 
+## Known problems (patches welcome!)
+* Keyword is not case insensitive
+* Long keyword would make effects a bit crowded (locking user...)
+
 Enjoy it!
