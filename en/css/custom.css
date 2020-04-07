@@ -7,7 +7,7 @@
 }
 body{
     color: #000;
-    background-color: #f0f0f0 !important;      
+    background-color: #f0f0f0 !important;
 }
 a{
     margin: 0 120px;
@@ -59,21 +59,12 @@ h3, h4{
 }
 /* 復活節彩蛋 */
 #easteregg{
-    top: 90%;
-    width: 100%;
-    position: absolute;
-    float: right;
-    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 #easteregg img{
-    position: fixed;
     width: 100px;
-    right: 25px;
-}
-#box {
-    position: fixed;
-    right: 110px;
-    margin-top: 40px;
 }
 /* 文章內文 */
 .container{
@@ -127,9 +118,6 @@ span.no-border {
     border: none;
 }
 
-#box {
-    position: fixed;
-}
 .modal.fade .modal-dialog {
     background-color: #fff;
 }
