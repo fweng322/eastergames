@@ -103,6 +103,10 @@ function fly(obj) {
 	var str1=k.keyword.toLowerCase()
 	var str2=$(obj)[0].innerText.toLowerCase()
 
+	if (str2 === "オープンなフォーマット") {
+		str2="オープンフォーマット"
+	}
+
         // 有找到這次點的東西就設為已點過
         //if (k.keyword.toUpperCase() === $(obj)[0].innerText.toUpperCase()) {
         if (str1 === str2) {
