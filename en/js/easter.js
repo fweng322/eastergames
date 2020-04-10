@@ -60,13 +60,13 @@ var data = [
     
     {
         id: 10,
-        keyword: "penrennial availability",
+        keyword: "perennial availability",
         clicked: false
     },
 ];
 
-var title = "Wish you understand the importance of document freedom and open format!";
-var text = "We hope that you enjoy this Easter game and understand the importance of document freedom.";
+var title = "Happy Easter and let's have your document freedom!";
+var text = "We hope that you enjoy this Easter game, and understand the importance of document freedom.  Open Document Format and LibreOffice are the perfect, so let's start liberating our digital documents!!";
 
 //----------------------------------------------------------------
 
@@ -100,8 +100,12 @@ function fly(obj) {
     sum = 0;
     for ([i, k] of data.entries()) {
 
+	var str1=k.keyword.toLowerCase()
+	var str2=$(obj)[0].innerText.toLowerCase()
+
         // 有找到這次點的東西就設為已點過
-        if (k.keyword.toUpperCase() === $(obj)[0].innerText.toUpperCase()) {
+        //if (k.keyword.toUpperCase() === $(obj)[0].innerText.toUpperCase()) {
+        if (str1 === str2) {
             // 如果早就被點過就跳出不要彈動畫
             if(data[i].clicked){
                 return;
