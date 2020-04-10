@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1024px){
+    .container  h4{
+        margin: 10px 225px;
+    }
+
+    .container #date{
+        color: #68696b;
+        margin: 0 300px;
+        border: none;
+        font-size: 0.857em;
+        font-style: italic;
+        margin-bottom: -5px;
+    }
+    .container #banner{
+        position: relative;
+        width: 500px;
+    }
+    .container #blue{
+        width: 200px;
+        margin: 70px 200px;
+    }
+    .container #green{
+        position: absolute;
+        width: 200px;
+        margin: -250px 500px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .container  h4{
+        margin: 10px 100px;
+    }
+    .container #date{
+        color: #68696b;
+        font-size: 9px;
+        margin: 100px ;
+        border: none;
+        font-style: italic;
+        margin-bottom: -5px;
+    }
+    .container #banner{
+        position: relative;
+        width: 500px;
+    }
+    .container #blue{
+        width: 200px;
+        margin: 70px 70px;
+    }
+    .container #green{
+        position: absolute;
+        width: 200px;
+        margin: -250px 400px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .container  h4{
+        font-size: 15px;
+        margin: 10px 10px;
+    }
+    .container #date{
+        color: #68696b;
+        font-size: 9px;
+        margin: 10px;
+        border: none;
+        font-style: italic;
+        margin-bottom: -5px;
+    }
+    .container #banner{
+        position: relative;
+        left: 20px;
+        margin: 10px 0;
+        width: 300px;
+    }
+    .container p{
+        width: 100%;
+        margin: 20px 10px;
+    }
+    .container h3{
+        margin: 10px 5px;
+    }
+    .container li{
+        width: 100%;
+        margin: 20px 10px;
+        line-height: 20px;
+    }
+    .container #blue{
+        width: 150px;
+        margin: 50px 20px;
+    }
+    .container #green{
+        position: absolute;
+        width: 150px;
+        margin: -180px 200px;
+    }
+    .navbar a {
+        color: #ABAAAA;
+        margin: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .container  h4{
+        font-size: 15px;
+        margin: 10px 10px;
+    }
+    .container #date{
+        color: #68696b;
+        font-size: 9px;
+        margin: 10px;
+        border: none;
+        font-style: italic;
+        margin-bottom: -5px;
+    }
+    .container #banner{
+        position: relative;
+        left: 20px;
+        margin: 10px 0;
+        width: 300px;
+    }
+    .container p{
+        width: 100%;
+        margin: 20px 10px;
+    }
+    .container h3{
+        margin: 10px 5px;
+    }
+    .container li{
+        width: 100%;
+        margin: 20px 10px;
+        line-height: 20px;
+    }
+    .container #blue{
+        width: 150px;
+        margin: 50px 20px;
+    }
+    .container #green{
+        position: absolute;
+        width: 150px;
+        margin: -180px 200px;
+    }
+    .navbar a {
+        color: #ABAAAA;
+        margin: 0 20px;
+    }
+}
