@@ -65,7 +65,7 @@ var data = [
     },
 ];
 
-var title = "¡Feliz Pascua y liberemos sus documentos digitales!"
+var title = "Felices Pascuas y liberemos sus documentos digitales!"
 var text = "Esperamos que disfrute este juego de Pascua y comprenda la importancia de la libertad de documentos. Open Document Format y LibreOffice son el dúo perfecto, ¡así que comencemos a liberar nuestros documentos digitales!"
 
 //----------------------------------------------------------------
