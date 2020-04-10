@@ -65,8 +65,8 @@ var data = [
     },
 ];
 
-var title = "Happy Easter and let's have your document freedom!";
-var text = "We hope that you enjoy this Easter game, and understand the importance of document freedom.  Open Document Format and LibreOffice are the perfect, so let's start liberating our digital documents!!";
+var title = "Happy Easter and let's have your digital documents liberated!";
+var text = "We hope that you enjoy this Easter game, and understand the importance of document freedom.  Open Document Format and LibreOffice are the perfect duo, so let's start liberating our digital documents!!";
 
 //----------------------------------------------------------------
 
