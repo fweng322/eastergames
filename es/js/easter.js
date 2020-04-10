@@ -65,8 +65,8 @@ var data = [
     },
 ];
 
-var title = "Wish you understand the importance of document freedom and open format!";
-var text = "We hope that you enjoy this Easter game and understand the importance of document freedom.";
+var title = "¡Feliz Pascua y liberemos sus documentos digitales!"
+var text = "Esperamos que disfrute este juego de Pascua y comprenda la importancia de la libertad de documentos. Open Document Format y LibreOffice son el dúo perfecto, ¡así que comencemos a liberar nuestros documentos digitales!"
 
 //----------------------------------------------------------------
 
